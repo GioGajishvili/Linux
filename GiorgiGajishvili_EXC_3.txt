@@ -1,0 +1,31 @@
+1. useradd -m exam
+2. useradd --no-create-home tbilisi
+3. ls -lh /home
+4. getent passwd exam | cut -d: -f6, getent passwd tbilisi | cut -d: -f6
+5. useradd -s /bin/bash try, usermod -u 4000 try, usermod --comment "cda ar daaklo"
+6. passwd try tbilisi exam
+7. su 
+8. su -s
+9. chsh -s /bin/dash
+10. usermod -s /bin/bash exam
+11. usermod -u 3900 exam
+12. sudo chfn -f ExamBtu exam, chfn -r 202, chfn -w 598123123, chfn -h +99502232323
+13. chfn, finger exam
+14. usermod --comment "es iyos axla" exam
+15. ls /etc/skel
+16. cd /etc/skel, sudo touch test.txt, sudo nano test.txt
+17. useradd -s /bin/bash try2, usermod -u 4010 try2, usermod --comment "cdas ar aklebs"
+18. passwd try2
+19. cat try2
+20. cd /etc/skel, rm test.txt
+21. userdel -r try2
+22. groupadd tbiliselebi
+23. groupadd --gid 3021 BTU
+24. usermod -aG tbiliselebi tbilisi
+25. usermod -aG BTU 3021
+26. id tbilisi 
+27. id exam
+28. touch /home work.doc chown exam work.doc, chgrp tbiliselebi work.doc 	
+29. su - , rm -rf work.dir
+30. sudo killall -u exam, try, tbilisi
+    groupdel tbiliselebi, BTU

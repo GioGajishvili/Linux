@@ -1,0 +1,94 @@
+1. 
+
+nano exercise1.sh
+
+#!/bin/bash
+
+read -p "sheiyvane saxeli, gvari, da 2 ricxvi" x y z k
+echo "jamia: $(($z+$k))"
+echo "namravli: $(($z*$k))"
+echo "sashualo: $[$(($z+$k))/2]"
+echo "sheni saxelia $x da sheni gvaria $y, madloba yuradgebistvis"
+
+2. 
+
+#!/bin/bash
+
+vcade () {
+echo "studenti Giorgi Gajishvili 6 jgufi"
+echo "I Love BTU"
+}
+
+for i in {1..50}
+do
+vcade
+done
+
+3.
+
+#!/bin/bash
+
+select comm in "cat /eth/os-release" lscpu "mkdir" "tail -10 filename" ip top kill gzip ctrl-c -n
+
+do
+echo "sheni archevani shecherda $comm"
+break
+done
+
+4. 
+
+#!/bin/bash
+
+read -p "sheiyvane saxeli, gvari, asaki: " saxeli gvari asaki
+echo -e "mogesalmeba gamocdaze savaraudo qulis agebis qulis damdgeneli biuro NUTU \e[1;34;35mNUTU\e[0m"
+echo -e "\e[1;33mshen imyofebi NUTU-s studentta momsaxurebis portalshi\e[0m"
+echo -e "sheyanili monacemebis analiziT dadgenilia sheni skalarui qulaa $((5*asaki)) sheni gvaria \e[3;32m$gvari\e[0m sheni saxelia \e[34m$saxeli\e[0m asaki : \e[4m$asaki\e[0m"
+
+5.
+
+#!/bin/bash
+
+while getopts "abktc" option
+do
+case $option in
+a)
+pwd
+;;
+b)
+head -10 /etc/passwd
+;;
+k)
+file /etc/passwd
+;;
+t)
+echo "baia asanidze" | toilet | lolcat
+;;
+c)
+echo monacemebi gvarit $OPTARG ar moidzebna
+esac
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+1. printenv
+2. printenv, echo $USER
+3. PS1="Giorgi Gajishvili"
+4. echo $USER, $Home, $SHELL
+5. export saxeli="Giorgi"
+6. export gvari="Gajishvili"
+7. export saxeli="/usr/raha/"
+8. printenv
+9. printenv
+10. echo $gvari 
+11. expr match "$saxeli" '.*\($2020\)'
+12. export cda="CALLmeIshmaelCALLme."
+13. expr length $cda
+14. expr index $cda "m"
+15. echo ${cda:5}
+16. expr index $cda 'I'
+17. echo ${cda:4:5}
+18. echo ${cda:10}
+19. echo ${cda:0:8}
+20. echo ${cda,}
+21. echo ${cda,,}
+22. echo ${cda^^}
+23. echo ${cda∼∼}
+24. expr 30 \: \(5\-3)\
+25. echo $[(55-10) : 5 - 2 * (5 - 5)]
+26. echo "scale=7; (213.85/71.25)*4 | bc
+27. grep "Data" btu.txt
+28. grep -i "Data" btu.txt
+29. grep -n "Data" btu.txt
+30. grep -A2 -i -n "Data" btu.txt
+31. grep -B1 -i -n "Data" btu.txt
+32. grep -B1 -A4 -i -n "Data" btu.txt
+33. grep -v "data" btu.txt
+34. grep -n -v "data" btu.txt
+35. grep -i -n "Data" btu.txt
+36. grep "data" btu.txt
+37. grep -v "DevOPS" btu.txt
+38. grep -v "DevOPS" "DataOPS" btu.txt
+39. sed "3d,18d,27d" btu.txt
+40. sed "20,29d" btu.txt 
+41. sed -n "1∼2d" btu.txt
+42. sed -n "2∼2d" btu.txt
+43. sed -n "7∼7d" btu.txt
+44. sed -n "1,6∼7d" btu.txt
+45. sed "/DevOPS/,+3d" btu.txt
+46. sed "s/Data/INFO/" btu.txt
+47. sed "s/Data/INFO/g" btu.txt
+48. sed "s/Data/INFO/Ig" btu.txt
+49. sed "s/^...//" btu.txt
+50. sed "s/$/Giorgi/" btu.txt
+51. sed "s/^Gajishvili//" btu.txt
+52. sed "1,5s/$/2021/" btu.txt
+53. sed -n "1,5p" btu.txt
+54. sed -n "/Data/p" btu.txt
+55. sed "OPS" btu.txt
+56. sed "y/abDk/APts/" btu.txt
+57. sed "c text" btu.txt
+58. cat countries.txt | sed "3c,7c GiorgiGajishvili\
+59. sed "4i Giorgi" btu.txt
+60. sed "$7 Giorgi" btu.txt
+61. sed "4,4i 19" btu.txt
+62. sed "$3,3 Paris" btu.txt
+63. sed "4,4i 19' -e "w cda_btu.txt" btu.txt
+64. awk "{print}" btu.txt
+65. awk "/OPS/ {print}" btu.txt
+66. awk "{print NR,$0}" btu.txt
+67. awk "{print NR "- " $2,4 }" btu.txt
+68. awk "{print NR,$10}" btu.txt
+69. awk "NR==12 NC==3 {print $1}" btu.txt
+70. awk "NR==10, NR==20 {print NR,$0}" btu.txt
+71. awk "NR==18, NR==25 NC==3 {print $3}" btu.txt
+72. man {mkdir} > btu.txt
+73. man {crontab} > btu.txt
+74. man {gzip} > btu.txt
+75. man {bzip2} > btu.txt
+76. man {xz} > btu.txt
+77. man {tar} > btu.txt
+78. gzip -1 btu.txt
+79. gzip -k gzip1
+80. gzip -k bzip2
+81. gzip -k xz
+82. find . -type f -exec grep "example" '{btu.txt}'
+83. tar -cvf btu.txt.tar project
+84. cpio -p [btu.txt] < btu.cpio
+85. zip list btu.txt, btu.tar, btu.cpio
+86. tar -cvf btu.txt.tar - gzip btu.tar.gz
+87. tar -cvjf btu.txt.bzip2
+88. tar -cvjf btu.txt.tar - xs btu.text.tar
+89. zip list btu.txt, btu.tar, btu.cpio
+90. mkdir dges
+91. tar -xvjf btu.tar -C Desktop/

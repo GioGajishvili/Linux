@@ -1,0 +1,116 @@
+1. giorgi@giorgi-IdeaPad-3-15ADA05
+2. ls
+3. echo $SHELL
+4. ls -a
+5. ls -la
+6. ls -F
+7. touch file{A..K}{1..37..4}
+8. mkdir A{3..66..3}
+9. mkdir -p {B9,B13,b17}/{a..e}
+10. man ls > fileA1
+11. cat fileA1
+12. less fileA1
+13. more fileA1
+14. gedit fileA1
+15. nano fileA1
+16. vi fileA1
+17. file --mime-type fileA1
+18. file --mime-type A3
+19. wc -lwm fileA1
+20. wc -l fileA1
+21. wc -w fileA1
+22. wc -m fileA1
+23. wc -c fileA1
+24. cat fileA1 > fileA5 ..... cp fileA1 fileA5
+25. mv fileA5 btu.txt
+26. find *5 > B13 
+27. cat B13
+28. find *K* > B9
+29. cat > "try" 
+    Giorgi Gajishvili 
+30. cat try2 
+    Giorgi
+    Gajishvili
+    19
+31. where echo
+32. compgen -c | grep ip
+33. sudo cat /etc/passwd
+34. sudo cat -b /etc/passwd > user_info
+35. cat /etc/os-release , lsb_release -a , hostnamectl
+36. whoami
+37. ls -l /proc/$$/exe
+38. ls -l /proc/$$/exe
+39. last
+40. top
+41. top
+42. top
+43. id
+44. id
+45. echo "dges 1 laris gacvliTi kursia $2.45-ze" > /tmp/btu.txt
+46. grep -nr "c" .bash_history
+47. grep -r "c" .bash_history
+48. cat /bin/echo
+49. man ls >> myfile && man grep >> myfile && man chmod >> myfile
+50. ln -s myfile myslink
+51. ls -li
+52. ls -lai
+53. ln myfile myslink
+54. ls -lai
+55. ls -l myfile
+56. chmode -w myfile
+57. nano myfile
+58. chmode +w myfile
+59. getfacl myfile
+60. umask
+61. touch testfile, mkdir testfolder, getfacl testfile testfolder
+62. umask 007
+63. touch testfile, mkdir testfolder, getfacl testfile testfolder
+64. umask 2
+65. man ls > file-test ... getfattr file-test 
+66. touch info-test ... chmod a-rwx info-test
+67. chmod 746 info-test
+68. sudo chmod 641 info-test
+69. echo -e '\n'{"ls","pwd","date","groups","free -h","ls /","uptime","cal","df","free"} > test
+70. chmod u+x test
+71. nano /home/giorgi/Desktop/Test/test
+72. date
+73. cal
+74. cal 2023
+75. cal 2022 -m dec
+76. chmod 7664 test
+77. ls -l
+78. ls -ltr
+79. ls -ltu
+80. ls -lR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

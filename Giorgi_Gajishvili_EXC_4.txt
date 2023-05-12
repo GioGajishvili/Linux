@@ -1,0 +1,35 @@
+1. ps
+2. ps u
+3. ps x , ps ux
+4. ps aux
+5. ps axjf
+6. ps u giorgi
+7. ps -U root -u root
+8. ps aux --sort -pcpu
+9. ps aux --sort +pcpu
+10. ps aux --sort -pmem
+11. ps aux --sort +pmem
+12. ps aux --sort -rss
+13. ps aux --sort +rss
+14. ps aux --sort -vsz
+15. ps aux --sort +vsz
+16. ps -eo pid,user,vsz,rss,comm --sort=-rss
+17. top -b -o -%CPU
+18. top
+19. top
+20. xclock, xlogo, gedit, gnome-calculator, gnome-sudoku
+21. jobs -l
+22. fg %3, ctrl^z - c
+23. fg %5, ctrl^z
+24. bf %5
+25. gedit & disown
+26. kill -15 59035
+27. kill -1 60256
+28. kill -2 gnome-calculator
+29. kill -9 gnome-sudoku
+30. jobs -p %gnome-calculator
+31. for ((n=0;n<5;n++)) do xlogo done, killall xlogo
+32. for ((n=0;n<5;n++)) do xclock done, pkill cloc
+33. xlogo &, xkill
+34. nice -n 7 gnome-sudoku
+35. renice -n 12 -p 60256

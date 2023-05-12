@@ -1,0 +1,61 @@
+# პირველი
+
+# age = int(input('შეიყვანეთ თქვენი ასაკი : '))
+# if age >= 0 and age <= 10:
+#     print('ბავშვი')
+# elif age >= 10 and age <= 19:
+#     print('თინეიჯერი')
+#
+# elif age >= 20 and age <= 30:
+#     print('ახალგაზრდა')
+#
+# elif age >= 31 and age <= 50:
+#     print('ზრდასრული')
+#
+# elif age >= 51 and age <= 80:
+#     print('ასაკოვანი')
+#
+# elif age >= 80 and age <= 100:
+#     print('მხცოვანი')
+#
+# else: print('მიუთითეთ სასურველი ტექსტი')
+
+
+# მეორე
+#
+# num = int(input('შეიყვანეთ რიცხვი : '))
+# perfect_nums = []
+#
+# for i in range (4, num):
+#     deviders = []
+#     for j in range (1, i):
+#         if i % j == 0:
+#             deviders.append(j)
+#     if sum(deviders) == i:
+#         perfect_nums.append(i)
+#
+# # print(perfect_nums)
+#
+# f = open("ForFinal.txt", "w")
+# for i in perfect_nums:
+#     f.write(str(i) + "\n")
+# შემოწმეთ ფაილი ForFinal
+
+
+# მესამე
+#
+# def sortname (students):
+#     ls = []
+#     lens = []
+#     for i in students:
+#         lens.append(len(i))
+#     while students != []:
+#         m = lens.index(min(lens))
+#         lens.remove(min(lens))
+#         ls.append(students[m])
+#         students.pop(m)
+#     return ls
+#
+# list_of_students = ["gio", "natia", "tamari", "elene", "luka", "tamazi"]
+#
+# print(sortname(list_of_students))
